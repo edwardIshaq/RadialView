@@ -19,7 +19,7 @@
  The view should work in any frame it will adjust its inner componnets to meat the new frame.
  
  */
-@interface TCRadialView : UIView {
+@interface RadialView : UIView {
     
 @private
     CAShapeLayer *pathLayer;

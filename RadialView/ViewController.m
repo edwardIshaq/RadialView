@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "TCRadialView.h"
+#import "RadialView.h"
 
 @interface ViewController ()
 

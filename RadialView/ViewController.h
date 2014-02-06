@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@class TCRadialView;
+@class RadialView;
 
 @interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet TCRadialView *radialView;
+@property (weak, nonatomic) IBOutlet RadialView *radialView;
 - (IBAction)updateRadial:(id)sender;
 
 @end

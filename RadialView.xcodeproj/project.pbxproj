@@ -21,7 +21,7 @@
 		94E7EE1D18A3322B00DC55AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E7EDFF18A3322B00DC55AD /* UIKit.framework */; };
 		94E7EE2518A3322B00DC55AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94E7EE2318A3322B00DC55AD /* InfoPlist.strings */; };
 		94E7EE2718A3322B00DC55AD /* RadialViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E7EE2618A3322B00DC55AD /* RadialViewTests.m */; };
-		94E7EE3218A3323900DC55AD /* TCRadialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E7EE3018A3323900DC55AD /* TCRadialView.m */; };
+		94E7EE3218A3323900DC55AD /* RadialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E7EE3018A3323900DC55AD /* RadialView.m */; };
 		94E7EE3618A3362400DC55AD /* RadialDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E7EE3518A3362400DC55AD /* RadialDemo.png */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +55,8 @@
 		94E7EE2218A3322B00DC55AD /* RadialViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadialViewTests-Info.plist"; sourceTree = "<group>"; };
 		94E7EE2418A3322B00DC55AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94E7EE2618A3322B00DC55AD /* RadialViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadialViewTests.m; sourceTree = "<group>"; };
-		94E7EE3018A3323900DC55AD /* TCRadialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRadialView.m; sourceTree = "<group>"; };
-		94E7EE3118A3323900DC55AD /* TCRadialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRadialView.h; sourceTree = "<group>"; };
+		94E7EE3018A3323900DC55AD /* RadialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialView.m; sourceTree = "<group>"; };
+		94E7EE3118A3323900DC55AD /* RadialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialView.h; sourceTree = "<group>"; };
 		94E7EE3518A3362400DC55AD /* RadialDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RadialDemo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,8 +122,8 @@
 				94E7EE0D18A3322B00DC55AD /* Main.storyboard */,
 				94E7EE1018A3322B00DC55AD /* ViewController.h */,
 				94E7EE1118A3322B00DC55AD /* ViewController.m */,
-				94E7EE3018A3323900DC55AD /* TCRadialView.m */,
-				94E7EE3118A3323900DC55AD /* TCRadialView.h */,
+				94E7EE3018A3323900DC55AD /* RadialView.m */,
+				94E7EE3118A3323900DC55AD /* RadialView.h */,
 				94E7EE1318A3322B00DC55AD /* Images.xcassets */,
 				94E7EE3518A3362400DC55AD /* RadialDemo.png */,
 				94E7EE0218A3322B00DC55AD /* Supporting Files */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E7EE3218A3323900DC55AD /* TCRadialView.m in Sources */,
+				94E7EE3218A3323900DC55AD /* RadialView.m in Sources */,
 				94E7EE1218A3322B00DC55AD /* ViewController.m in Sources */,
 				94E7EE0C18A3322B00DC55AD /* AppDelegate.m in Sources */,
 				94E7EE0818A3322B00DC55AD /* main.m in Sources */,
@@ -472,6 +472,7 @@
 				94E7EE2C18A3322B00DC55AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94E7EE2D18A3322B00DC55AD /* Build configuration list for PBXNativeTarget "RadialViewTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +481,7 @@
 				94E7EE2F18A3322B00DC55AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

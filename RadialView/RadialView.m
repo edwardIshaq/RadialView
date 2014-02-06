@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 Three Pillar Global. All rights reserved.
 //
 
-#import "TCRadialView.h"
+#import "RadialView.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation TCRadialView
+@implementation RadialView
 
 @synthesize percent;
 @synthesize strokeColor;
@@ -109,11 +109,12 @@
     
     // Background filling
     UIBezierPath *backgroundRing = [UIBezierPath bezierPathWithArcCenter:center radius:radius startAngle:0 endAngle:2*M_PI clockwise:YES];
-	backgroundRing.lineWidth = 13;
+	backgroundRing.lineWidth = lineWidth;
 	[[UIColor whiteColor] setStroke];
 	[backgroundRing stroke];
     
     //Percent filling
+    NSLog(@"%f - %f", startAngle , endAngle);
 	UIBezierPath *percentRing = [UIBezierPath bezierPathWithArcCenter:center radius:radius startAngle:startAngle endAngle:endAngle clockwise:YES];
     
     if (self.shouldAnimate) {
